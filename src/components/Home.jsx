@@ -1,6 +1,7 @@
 // src/components/Home.jsx
 import '../mytailwind.css'
 import landingImg from './jesushome.jpg'
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -17,9 +18,10 @@ function Home() {
         Skillcoach is your ultimate platform for connecting with expert coaches, finding guidance,
         and achieving your goals through personalized learning experiences.
       </p>
-      <button className="mt-8 px-8 py-3 bg-[#68DAE4] text-white rounded-lg text-xl hover:bg-[#5bc5cf] transition">
+        <br />
+      <Link to="/signinup"  className="mt-8 px-8 py-3 bg-[#68DAE4] text-white rounded-lg text-xl hover:bg-[#5bc5cf] transition">
         Try it now
-      </button>
+      </Link>
 
     </div>
   );
