@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Pricing from './components/Pricing';
 import './mytailwind.css';
+import SignInUp from "./components/SignInUp.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/price" element={<Pricing />} />
+          <Route path="/signinup"element={<SignInUp />} />
         </Routes>
       </div>
     </Router>

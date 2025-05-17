@@ -25,9 +25,9 @@ function Navbar() {
           {/* Right - Auth Buttons */}
           <div className="flex items-center space-x-4">
 
-            <button className="px-4 py-2 bg-[#68DAE4] text-white rounded-lg hover:bg-[#5bc5cf] transition">
+            <Link to="/signinup" className="px-4 py-2 bg-[#68DAE4] text-white rounded-lg hover:bg-[#5bc5cf] transition">
               Sign In / Sign Up
-            </button>
+            </Link>
           </div>
         </div>
       </div>
