@@ -20,7 +20,7 @@ function Navbar() {
             <Link to="/about" className="text-gray-600 hover:text-[#68DAE4]">About</Link>
             <Link to="/contact" className="text-gray-600 hover:text-[#68DAE4]">Contact</Link>
             <Link to="/price" className="text-gray-600 hover:text-[#68DAE4]">Pricing</Link>
-            <Link to="/yourjourney" className="text-gray-600 hover:text-[#68DAE4]">Your Journey</Link>
+
           </div>
 
           {/* Right - Auth Buttons */}

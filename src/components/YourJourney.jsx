@@ -1,5 +1,7 @@
 // src/components/YourJourney.jsx
 import '../mytailwind.css'
+import React from 'react';
+import Sidebar from './Sidebar';
 
 function YourJourney() {
   // Data for current ongoing progress section
@@ -31,7 +33,15 @@ function YourJourney() {
   ];
 
   return (
+      <div className="flex">
+
+        <Sidebar />
+
+        <div className="ml-64 w-full transition-all duration-300">
     <div className="max-w-7xl mx-auto px-4 py-12">
+
+      <h2 className="text-4xl font-bold text-center text-[#68DAE4] mb-12">Your Journey</h2>
+
       {/* Section 1: Current Ongoing Progress */}
       <div className="mb-12">
         <h2 className="text-3xl font-bold mb-8">Current Ongoing Progress</h2>
@@ -54,7 +64,7 @@ function YourJourney() {
       </div>
 
       {/* Section 2: List of Pending Courses */}
-      <div>
+      <div className="mb-12">
         <h2 className="text-3xl font-bold mb-8">Pending Courses</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {pendingCourseCategories.map((category, index) => (
@@ -77,8 +87,12 @@ function YourJourney() {
           ))}
         </div>
       </div>
+
+
     </div>
-  );
+  </div>
+        </div>
+        );
 }
 
 export default YourJourney;
