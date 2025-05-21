@@ -18,8 +18,8 @@ function Sidebar() {
         { name: "Your Courses", icon: "📚", path: "/skillcoach-clickable-mvp/yourcourses" },
         { name: "Your Skills", icon: "🌟", path: "/skillcoach-clickable-mvp/yourskills" },
         { name: "Chat", icon: "💬", path: "/skillcoach-clickable-mvp/chat" },
-        { name: "Choose Coach", icon: "👨‍🏫", path: "/skillcoach-clickable-mvp/choose-coach" },
-        { name: "Choose Journey", icon: "🛣️", path: "/skillcoach-clickable-mvp/choose-journey" }
+        { name: "Select Coach", icon: "👨‍🏫", path: "/skillcoach-clickable-mvp/selectcoach" },
+        { name: "Select Journey", icon: "🛣️", path: "/skillcoach-clickable-mvp/selectjourney" }
       ]
     },
     {

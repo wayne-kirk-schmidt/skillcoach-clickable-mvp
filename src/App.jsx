@@ -10,6 +10,7 @@ import YourJourney from "./components/YourJourney";
 import YourCourses from "./components/YourCourses";
 import YourSkills from './components/YourSkills';
 import Chat from './components/Chat';
+import SelectCoach from './components/SelectCoach';
 
 import './mytailwind.css';
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/skillcoach-clickable-mvp/yourcourses" element={<YourCourses />} />
           <Route path="/skillcoach-clickable-mvp/yourskills" element={<YourSkills />} />
           <Route path="/skillcoach-clickable-mvp/chat" element={<Chat />} />
+          <Route path="/skillcoach-clickable-mvp/selectcoach" element={<SelectCoach />} />
         </Routes>
       </div>
     </Router>
