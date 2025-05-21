@@ -20,15 +20,15 @@ function App() {
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/price" element={<Pricing />} />
-          <Route path="/signinup" element={<SignInUp />} />
-          <Route path="/yourjourney" element={<YourJourney />} />
-          <Route path="/yourcourses" element={<YourCourses />} />
-          <Route path="/yourskills" element={<YourSkills />} />
-          <Route path="/chat" element={<Chat />} />
+          <Route path="/skillcoach-clickable-mvp/" element={<Home />} />
+          <Route path="/skillcoach-clickable-mvp/about" element={<About />} />
+          <Route path="/skillcoach-clickable-mvp/contact" element={<Contact />} />
+          <Route path="/skillcoach-clickable-mvp/price" element={<Pricing />} />
+          <Route path="/skillcoach-clickable-mvp/signinup" element={<SignInUp />} />
+          <Route path="/skillcoach-clickable-mvp/yourjourney" element={<YourJourney />} />
+          <Route path="/skillcoach-clickable-mvp/yourcourses" element={<YourCourses />} />
+          <Route path="/skillcoach-clickable-mvp/yourskills" element={<YourSkills />} />
+          <Route path="/skillcoach-clickable-mvp/chat" element={<Chat />} />
         </Routes>
       </div>
     </Router>

@@ -14,32 +14,32 @@ function Sidebar() {
     {
       section: "User Page",
       items: [
-        { name: "Your Journey", icon: "📊", path: "/yourjourney" },
-        { name: "Your Courses", icon: "📚", path: "/yourcourses" },
-        { name: "Your Skills", icon: "🌟", path: "/yourskills" },
-        { name: "Chat", icon: "💬", path: "/chat" },
-        { name: "Choose Coach", icon: "👨‍🏫", path: "/choose-coach" },
-        { name: "Choose Journey", icon: "🛣️", path: "/choose-journey" }
+        { name: "Your Journey", icon: "📊", path: "/skillcoach-clickable-mvp/yourjourney" },
+        { name: "Your Courses", icon: "📚", path: "/skillcoach-clickable-mvp/yourcourses" },
+        { name: "Your Skills", icon: "🌟", path: "/skillcoach-clickable-mvp/yourskills" },
+        { name: "Chat", icon: "💬", path: "/skillcoach-clickable-mvp/chat" },
+        { name: "Choose Coach", icon: "👨‍🏫", path: "/skillcoach-clickable-mvp/choose-coach" },
+        { name: "Choose Journey", icon: "🛣️", path: "/skillcoach-clickable-mvp/choose-journey" }
       ]
     },
     {
       section: "Coach Journey",
       items: [
-        { name: "Create Journey", icon: "✨", path: "/create-journey" },
-        { name: "Capture Stories", icon: "📝", path: "/capture-stories" }
+        { name: "Create Journey", icon: "✨", path: "/skillcoach-clickable-mvp/create-journey" },
+        { name: "Capture Stories", icon: "📝", path: "/skillcoach-clickable-mvp/capture-stories" }
       ]
     },
     {
       section: "Guide Journey",
       items: [
-        { name: "Build Journey", icon: "🔨", path: "/build-journey" },
-        { name: "Build Teachings", icon: "📖", path: "/build-teachings" }
+        { name: "Build Journey", icon: "🔨", path: "/skillcoach-clickable-mvp/build-journey" },
+        { name: "Build Teachings", icon: "📖", path: "/skillcoach-clickable-mvp/build-teachings" }
       ]
     },
     {
       section: "Settings",
       items: [
-        { name: "Preference", icon: "⚙️", path: "/preferences" }
+        { name: "Preference", icon: "⚙️", path: "/skillcoach-clickable-mvp/preferences" }
       ]
     }
   ];
