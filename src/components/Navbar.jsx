@@ -20,6 +20,7 @@ function Navbar() {
             <Link to="/about" className="text-gray-600 hover:text-[#68DAE4]">About</Link>
             <Link to="/contact" className="text-gray-600 hover:text-[#68DAE4]">Contact</Link>
             <Link to="/price" className="text-gray-600 hover:text-[#68DAE4]">Pricing</Link>
+            <a href="https://backofthenapkin.tech/skillcoach-carousel-mvp/" className="text-gray-600 hover:text-[#68DAE4]">Carousal</a>
 
           </div>
 

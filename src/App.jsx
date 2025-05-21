@@ -8,6 +8,8 @@ import Pricing from './components/Pricing';
 import SignInUp from "./components/SignInUp";
 import YourJourney from "./components/YourJourney";
 import YourCourses from "./components/YourCourses";
+import YourSkills from './components/YourSkills';
+import Chat from './components/Chat';
 
 import './mytailwind.css';
 
@@ -25,7 +27,8 @@ function App() {
           <Route path="/signinup" element={<SignInUp />} />
           <Route path="/yourjourney" element={<YourJourney />} />
           <Route path="/yourcourses" element={<YourCourses />} />
-
+          <Route path="/yourskills" element={<YourSkills />} />
+          <Route path="/chat" element={<Chat />} />
         </Routes>
       </div>
     </Router>
