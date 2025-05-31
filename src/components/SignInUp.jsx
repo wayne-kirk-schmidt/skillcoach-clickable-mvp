@@ -21,13 +21,13 @@ const SignInSignUp = () => {
                     {/* Tabs for Sign In / Sign Up */}
                     <div className="flex justify-between mb-6">
                         <button
-                            className={`text-lg font-semibold ${isSignIn ? 'border-b-2 border-[#68DAE4]' : ''}`}
+                            className={`text-lg font-semibold ${isSignIn ? 'border-b-2 border-[#1B638A]' : ''}`}
                             onClick={() => setIsSignIn(true)}
                         >
                             Sign In
                         </button>
                         <button
-                            className={`text-lg font-semibold ${!isSignIn ? 'border-b-2 border-[#68DAE4]' : ''}`}
+                            className={`text-lg font-semibold ${!isSignIn ? 'border-b-2 border-[#1B638A]' : ''}`}
                             onClick={() => setIsSignIn(false)}
                         >
                             Sign Up
@@ -94,7 +94,7 @@ const SignInSignUp = () => {
                                 className="border border-gray-300 rounded-lg w-full py-2 px-4 mb-4"
                             />
 
-                            <button className="bg-[#68DAE4] text-white py-2 px-4 rounded-lg w-full font-bold" >
+                            <button className="bg-[#1B638A] text-white py-2 px-4 rounded-lg w-full font-bold" >
                                 Sign In
                             </button>
 
@@ -143,7 +143,7 @@ const SignInSignUp = () => {
                                 {/* Add more countries as needed */}
                             </select>
 
-                            <button className="bg-[#68DAE4] text-white py-2 px-4 rounded-lg w-full font-bold">
+                            <button className="bg-[#1B638A] text-white py-2 px-4 rounded-lg w-full font-bold">
                                 Sign Up
                             </button>
 

@@ -47,7 +47,7 @@ function Sidebar() {
 
 
   return (
-    <div className={`bg-[#DEF4E6] shadow-lg h-screen ${isCollapsed ? 'w-20' : 'w-64'} fixed left-0 transition-all duration-300 z-10`}>
+    <div className={`bg-[#F1FAF5] shadow-lg h-screen ${isCollapsed ? 'w-20' : 'w-64'} fixed left-0 transition-all duration-300 z-10`}>
       <div className="p-4 flex justify-between items-center border-b">
         {!isCollapsed && <h2 className="font-bold text-[#1B638A] text-xl">Menu</h2>}
         <button

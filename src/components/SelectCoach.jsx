@@ -101,7 +101,7 @@ function SelectCoach() {
 
       <div className="ml-64 w-full transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 py-12">
-          <h2 className="text-4xl font-bold text-center text-[#68DAE4] mb-12">Select Coach</h2>
+          <h2 className="text-4xl font-bold text-center text-[#1B638A] mb-12">Select Coach</h2>
 
           {/* Search Section */}
           <div className="mb-12">
@@ -110,13 +110,13 @@ function SelectCoach() {
                 <input
                   type="text"
                   placeholder="Search by name, expertise, or field..."
-                  className="flex-grow p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#68DAE4]"
+                  className="flex-grow p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1B638A]"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
                 <button
                   type="submit"
-                  className="bg-[#68DAE4] text-white py-3 px-6 rounded-lg hover:bg-[#5bc5cf] font-bold transition whitespace-nowrap"
+                  className="bg-[#1B638A] text-white py-3 px-6 rounded-lg hover:bg-[#5bc5cf] font-bold transition whitespace-nowrap"
                 >
                   Find Coaches
                 </button>
@@ -133,7 +133,7 @@ function SelectCoach() {
                   <img
                     src={coach.avatar}
                     alt={coach.name}
-                    className="w-24 h-24 rounded-full object-cover mb-4 border-4 border-[#68DAE4]"
+                    className="w-24 h-24 rounded-full object-cover mb-4 border-4 border-[#1B638A]"
                   />
                   <h3 className="text-xl font-bold text-center mb-1">{coach.name}</h3>
                   <p className="text-gray-600 text-center mb-4">{coach.title}</p>
@@ -149,7 +149,7 @@ function SelectCoach() {
                     ))}
                   </div>
 
-                  <button className={`mt-6 ${ coach.selectStat === 'Selected' ? 'bg-gray-500': 'bg-[#68DAE4] hover:bg-[#5bc5cf]'  } text-white py-2 px-6 rounded-lg  font-bold transition w-full`}>
+                  <button className={`mt-6 ${ coach.selectStat === 'Selected' ? 'bg-gray-500': 'bg-[#1B638A] hover:bg-[#5bc5cf]'  } text-white py-2 px-6 rounded-lg  font-bold transition w-full`}>
                       {coach.selectStat}
                   </button>
                 </div>

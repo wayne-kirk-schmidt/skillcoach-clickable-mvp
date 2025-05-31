@@ -40,7 +40,7 @@ function YourJourney() {
         <div className="ml-64 w-full transition-all duration-300">
     <div className="max-w-7xl mx-auto px-4 py-12">
 
-      <h2 className="text-4xl font-bold text-center text-[#68DAE4] mb-12">Your Journey</h2>
+      <h2 className="text-4xl font-bold text-center text-[#1B638A] mb-12">Your Journey</h2>
 
       {/* Section 1: Current Ongoing Progress */}
       <div className="mb-12">
@@ -50,11 +50,11 @@ function YourJourney() {
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="text-xl font-bold">{course.title}</h3>
-                <span className="text-2xl font-bold text-[#68DAE4]">{course.progress}%</span>
+                <span className="text-2xl font-bold text-[#1B638A]">{course.progress}%</span>
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2.5">
                 <div
-                  className="bg-[#68DAE4] h-2.5 rounded-full"
+                  className="bg-[#1B638A] h-2.5 rounded-full"
                   style={{ width: `${course.progress}%` }}
                 ></div>
               </div>
@@ -69,18 +69,18 @@ function YourJourney() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {pendingCourseCategories.map((category, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-[#68DAE4] mb-4">{category.category}</h3>
+              <h3 className="text-2xl font-bold text-[#1B638A] mb-4">{category.category}</h3>
               <ul className="space-y-4">
                 {category.courses.map((course, idx) => (
                   <li key={idx} className="flex items-center">
-                    <svg className="w-5 h-5 text-[#68DAE4] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#1B638A] mr-2" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     {course}
                   </li>
                 ))}
               </ul>
-              <button className="mt-8 w-full py-3 bg-[#68DAE4] text-white rounded-lg hover:bg-[#5bc5cf] font-bold transition">
+              <button className="mt-8 w-full py-3 bg-[#1B638A] text-white rounded-lg hover:bg-[#5bc5cf] font-bold transition">
                 Start Learning
               </button>
             </div>

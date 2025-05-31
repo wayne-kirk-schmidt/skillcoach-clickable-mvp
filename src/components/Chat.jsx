@@ -61,7 +61,7 @@ function Chat() {
         {/* Coaches list - 30% of the page width */}
         <div className="w-3/10 border-r border-gray-300 bg-gray-50">
           <div className="p-4 border-b border-gray-300">
-            <h2 className="text-2xl font-bold text-[#68DAE4]">Coaches</h2>
+            <h2 className="text-2xl font-bold text-[#1B638A]">Coaches</h2>
           </div>
 
           {/* Coaches list */}
@@ -126,7 +126,7 @@ function Chat() {
                     <div
                       className={`max-w-[70%] rounded-lg p-3 ${
                         message.sender === 'user' 
-                          ? 'bg-[#68DAE4] text-white' 
+                          ? 'bg-[#1B638A] text-white' 
                           : 'bg-white text-black border border-gray-200'
                       }`}
                     >
@@ -151,13 +151,13 @@ function Chat() {
                   <input
                     type="text"
                     placeholder="Type your message here..."
-                    className="flex-grow mx-2 p-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#68DAE4]"
+                    className="flex-grow mx-2 p-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#1B638A]"
                     value={messageText}
                     onChange={(e) => setMessageText(e.target.value)}
                   />
                   <button
                     type="submit"
-                    className="p-2 bg-[#68DAE4] text-white rounded-full hover:bg-[#5bc5cf]"
+                    className="p-2 bg-[#1B638A] text-white rounded-full hover:bg-[#5bc5cf]"
                   >
                     <FaPaperPlane />
                   </button>

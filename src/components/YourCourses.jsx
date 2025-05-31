@@ -12,7 +12,7 @@ function YourCourses() {
       title: "AI Prompts",
       status: "enrolled",
       action: "Resume",
-      actionColor: "bg-[#68DAE4]"
+      actionColor: "bg-[#1B638A]"
     },
     {
       title: "Data Analytics",
@@ -38,7 +38,7 @@ function YourCourses() {
   const getStatusColor = (status) => {
     switch(status.toLowerCase()) {
       case 'enrolled':
-        return 'text-[#68DAE4]';
+        return 'text-[#1B638A]';
       case 'completed':
         return 'text-green-500';
       case 'pending':
@@ -54,7 +54,7 @@ function YourCourses() {
 
       <div className="ml-64 w-full transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 py-12">
-          <h2 className="text-4xl font-bold text-center text-[#68DAE4] mb-12">Your Courses</h2>
+          <h2 className="text-4xl font-bold text-center text-[#1B638A] mb-12">Your Courses</h2>
 
           {/* Search Section */}
           <div className="mb-12">
@@ -63,13 +63,13 @@ function YourCourses() {
                 <input
                   type="text"
                   placeholder="Search by title, topic, or instructor ..."
-                  className="flex-grow p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#68DAE4]"
+                  className="flex-grow p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1B638A]"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
                 <button
                   type="submit"
-                  className="bg-[#68DAE4] text-white py-3 px-6 rounded-lg hover:bg-[#5bc5cf] font-bold transition whitespace-nowrap"
+                  className="bg-[#1B638A] text-white py-3 px-6 rounded-lg hover:bg-[#5bc5cf] font-bold transition whitespace-nowrap"
                 >
                   Search Courses
                 </button>

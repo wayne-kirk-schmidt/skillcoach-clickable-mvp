@@ -14,7 +14,7 @@ function YourSkills() {
 
   // Function to determine color based on skill progress
   const getProgressColor = (progress) => {
-    if (progress >= 80) return "#68DAE4"; // Main theme color for high skills
+    if (progress >= 80) return "#1B638A"; // Main theme color for high skills
     if (progress >= 60) return "#4CAF50"; // Green for good skills
     if (progress >= 40) return "#FFC107"; // Yellow for intermediate skills
     return "#FF5722"; // Orange for beginner skills
@@ -71,7 +71,7 @@ function YourSkills() {
 
       <div className="ml-64 w-full transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 py-12">
-          <h2 className="text-4xl font-bold text-center text-[#68DAE4] mb-12">Your Skills</h2>
+          <h2 className="text-4xl font-bold text-center text-[#1B638A] mb-12">Your Skills</h2>
 
           {/* Skills Progress Section */}
           <div className="mb-16">
@@ -117,7 +117,7 @@ function YourSkills() {
           {/* Footer with Action Buttons */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <div className="flex flex-col md:flex-row justify-center gap-4">
-              <button className="bg-[#68DAE4] text-white py-3 px-6 rounded-lg hover:bg-[#5bc5cf] font-bold transition">
+              <button className="bg-[#1B638A] text-white py-3 px-6 rounded-lg hover:bg-[#5bc5cf] font-bold transition">
                 Search by Skill
               </button>
               <button className="bg-[#4CAF50] text-white py-3 px-6 rounded-lg hover:opacity-90 font-bold transition">

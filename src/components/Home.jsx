@@ -21,7 +21,7 @@ function Home() {
           SkillCoach gets your successor ready, your knowledge transferred and your deal done.
       </p>
         <br />
-      <Link to="/skillcoach-clickable-mvp/yourjourney"  className="mt-8 px-8 py-3 bg-[#68DAE4] text-white rounded-lg text-xl hover:bg-[#5bc5cf] transition">
+      <Link to="/skillcoach-clickable-mvp/yourjourney"  className="mt-8 px-8 py-3 bg-[#1B638A] text-white rounded-lg text-xl hover:bg-[#5bc5cf] transition">
         Start Your Exit
       </Link>
 

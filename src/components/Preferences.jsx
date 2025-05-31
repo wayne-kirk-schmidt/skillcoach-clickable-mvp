@@ -28,7 +28,7 @@ function Preferences() {
                 <span className="text-gray-700">{label}</span>
                 <button
                     onClick={() => onChange(!enabled)}
-                    className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none ${enabled ? 'bg-[#68DAE4]' : 'bg-gray-300'}`}
+                    className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none ${enabled ? 'bg-[#1B638A]' : 'bg-gray-300'}`}
                 >
           <span
               className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${enabled ? 'translate-x-6' : 'translate-x-1'}`}
@@ -49,7 +49,7 @@ function Preferences() {
                     value={value}
                     checked={currentValue === value}
                     onChange={() => onChange(value)}
-                    className="h-4 w-4 text-[#68DAE4] focus:ring-[#68DAE4]"
+                    className="h-4 w-4 text-[#1B638A] focus:ring-[#1B638A]"
                 />
                 <label htmlFor={`${name}-${value}`} className="ml-2 text-gray-700">
                     {label}
@@ -64,13 +64,13 @@ function Preferences() {
 
             <div className="ml-64 w-full transition-all duration-300">
                 <div className="max-w-3xl mx-auto px-4 py-12">
-                    <h2 className="text-4xl font-bold text-center text-[#68DAE4] mb-12">Your Preferences</h2>
+                    <h2 className="text-4xl font-bold text-center text-[#1B638A] mb-12">Your Preferences</h2>
 
                     {/* Account Settings Card */}
                     <div className="mb-8">
                         <div className="bg-white p-6 rounded-lg shadow-lg">
                             <div className="flex items-center mb-4">
-                                <FiUser className="text-[#68DAE4] text-xl mr-2" />
+                                <FiUser className="text-[#1B638A] text-xl mr-2" />
                                 <h3 className="text-2xl font-bold">Account Settings</h3>
                             </div>
 
@@ -81,7 +81,7 @@ function Preferences() {
                                         type="text"
                                         value={name}
                                         onChange={(e) => setName(e.target.value)}
-                                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#68DAE4]"
+                                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1B638A]"
                                     />
                                 </div>
 
@@ -91,7 +91,7 @@ function Preferences() {
                                         type="email"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
-                                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#68DAE4]"
+                                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1B638A]"
                                     />
                                 </div>
 
@@ -108,7 +108,7 @@ function Preferences() {
                     <div className="mb-8">
                         <div className="bg-white p-6 rounded-lg shadow-lg">
                             <div className="flex items-center mb-4">
-                                <FiBell className="text-[#68DAE4] text-xl mr-2" />
+                                <FiBell className="text-[#1B638A] text-xl mr-2" />
                                 <h3 className="text-2xl font-bold">Notifications</h3>
                             </div>
 
@@ -131,7 +131,7 @@ function Preferences() {
                     <div className="mb-8">
                         <div className="bg-white p-6 rounded-lg shadow-lg">
                             <div className="flex items-center mb-4">
-                                <FiMic className="text-[#68DAE4] text-xl mr-2" />
+                                <FiMic className="text-[#1B638A] text-xl mr-2" />
                                 <h3 className="text-2xl font-bold">Coach Customization</h3>
                             </div>
 
@@ -160,7 +160,7 @@ function Preferences() {
                     <div className="mb-8">
                         <div className="bg-white p-6 rounded-lg shadow-lg">
                             <div className="flex items-center mb-4">
-                                <FiCreditCard className="text-[#68DAE4] text-xl mr-2" />
+                                <FiCreditCard className="text-[#1B638A] text-xl mr-2" />
                                 <h3 className="text-2xl font-bold">Payments & Plan</h3>
                             </div>
 
@@ -170,7 +170,7 @@ function Preferences() {
                                     <select
                                         value={currentPlan}
                                         onChange={(e) => setCurrentPlan(e.target.value)}
-                                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#68DAE4]"
+                                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#1B638A]"
                                     >
                                         <option value="Free">Free</option>
                                         <option value="Pro">Pro</option>
@@ -180,7 +180,7 @@ function Preferences() {
 
                                 {currentPlan !== 'Free' && (
                                     <div className="mt-4">
-                                        <button className="bg-[#68DAE4] text-white py-2 px-4 rounded-lg hover:bg-[#5bc5cf] font-bold transition">
+                                        <button className="bg-[#1B638A] text-white py-2 px-4 rounded-lg hover:bg-[#5bc5cf] font-bold transition">
                                             Manage Subscription
                                         </button>
                                     </div>
@@ -188,7 +188,7 @@ function Preferences() {
 
                                 {currentPlan === 'Free' && (
                                     <div className="mt-4">
-                                        <button className="bg-[#68DAE4] text-white py-2 px-4 rounded-lg hover:bg-[#5bc5cf] font-bold transition">
+                                        <button className="bg-[#1B638A] text-white py-2 px-4 rounded-lg hover:bg-[#5bc5cf] font-bold transition">
                                             Upgrade Plan
                                         </button>
                                     </div>
@@ -200,7 +200,7 @@ function Preferences() {
                     {/* Save Changes Button */}
                     <div className="flex justify-center">
                         <button
-                            className="bg-[#68DAE4] text-white py-3 px-8 rounded-lg hover:bg-[#5bc5cf] font-bold transition"
+                            className="bg-[#1B638A] text-white py-3 px-8 rounded-lg hover:bg-[#5bc5cf] font-bold transition"
                         >
                             Save Changes
                         </button>
